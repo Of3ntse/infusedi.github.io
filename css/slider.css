@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Nov 2017, 9:47:31 AM
+    Author     : OFENTSE
+*/
+
+@keyframes body_a{
+
+0% {
+ left:0;
+
+}
+
+
+20% {
+ left:0;
+
+}
+
+25% {
+ left:-100%;
+
+}
+
+45% {
+ left:-100%;
+
+}
+
+
+50% {
+ left:-200%;
+
+}
+
+70% {
+ left:-200%;
+
+}
+
+75% {
+ left:-300%;
+
+}
+
+95% {
+ left:-300%;
+
+}
+
+100% {
+ left:-400%;
+
+}
+
+}
+
+#body_a{
+overflow: hidden;
+}
+
+
+#body_a figure img{
+//width: 50%;
+//width: 1130px;
+//height: 510px;
+//float: left;
+}
+
+
+#body_a figure{
+position: relative;
+width: 500%;
+margin: 0;
+left:0;
+text-align: left;
+font-size: 0;
+animation: 10s body_a infinite;
+}
+

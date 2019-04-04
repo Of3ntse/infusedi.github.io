@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Dec 2017, 9:21:26 AM
+    Author     : AGILEUM_ONE
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 1350px;
+    float: right;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+
+li a {
+    display: block;
+    color: #0000ff;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+li a:hover {
+    background-color: #0a0a9a;
+    color: white;
+    font-family: sans-serif;
+     font-size:100%;
+}
